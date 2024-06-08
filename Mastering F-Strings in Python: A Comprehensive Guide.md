@@ -219,7 +219,7 @@ print(f'{tax:~^20}') # centre and pad
 # ~~~~~~~~1234~~~~~~~~
 ```
 
-The '__format__' allows you to funk with this feature. Example
+The `__format__` allows you to funk with this feature. Example
 
 ```python
 class Money:
