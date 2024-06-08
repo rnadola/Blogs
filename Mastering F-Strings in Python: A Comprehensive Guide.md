@@ -178,6 +178,8 @@ print('{name} has killed {kill} enemies'.format(name=agent_name,kill=kill_count)
 print(f'{agent_name} has killed {kill_count} enemies')
 ```
 
+Even cooler is the ability to nest and format. Example date
+
 ```python
 from datetime import datetime
 
@@ -198,6 +200,8 @@ Output:
 April 14th 2022
 ```
 
+Pretty formatting is also easier
+
 ```python
 # Using str.format()
 tax = 1234
@@ -214,6 +218,8 @@ print(f'{tax:~>8}') # pad left with ~ to fill eight characters or < other direct
 print(f'{tax:~^20}') # centre and pad
 # ~~~~~~~~1234~~~~~~~~
 ```
+
+The '__format__' allows you to funk with this feature. Example
 
 ```python
 class Money:
